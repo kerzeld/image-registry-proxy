@@ -1,0 +1,8 @@
+mirrors:
+    docker.io:
+        endpoint:
+            - "http://127.0.0.1:5050"
+configs:
+    "127.0.0.1:5050":
+        tls:
+            insecure_skip_verify: true
